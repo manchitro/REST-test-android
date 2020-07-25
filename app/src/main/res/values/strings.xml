@@ -4,4 +4,7 @@
     <string name="login">Login</string>
     <string name="username">Username</string>
     <string name="password">Password</string>
+    <string name="welcome_home">Welcome Home</string>
+    <string name="session_cookie">Session cookie:</string>
+    <string name="logout">Logout</string>
 </resources>
