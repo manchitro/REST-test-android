@@ -12,7 +12,7 @@
         android:id="@+id/txtUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Username"
+        android:text="@string/username"
         android:textSize="20sp"
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
@@ -44,6 +44,39 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/editOldPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/old_password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/editNewPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:hint="@string/new_password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnUpdatePass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change_password"
+        android:background="@color/colorAccent"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="20dp"/>
 
     <Button
         android:id="@+id/btnLogout"

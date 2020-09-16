@@ -7,4 +7,7 @@
     <string name="welcome_home">Welcome Home</string>
     <string name="session_cookie">Session cookie:</string>
     <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+    <string name="old_password">Old Password</string>
+    <string name="new_password">New Password</string>
 </resources>
